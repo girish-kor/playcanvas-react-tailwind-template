@@ -39,7 +39,7 @@
   "dependencies": {
     "@playcanvas/react": "^0.5.0",
     "playcanvas": "^2.8.2",
-    "react": "^18.3.1",
+    "react": "^19.2.8",
     "react-dom": "^18.3.1",
     "sync-ammo": "^0.1.2"
   },
