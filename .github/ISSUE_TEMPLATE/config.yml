@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/girish-kor/playcanvas-react-tailwind-template/discussions
+    about: Usage questions and general discussion go in Discussions, not Issues.

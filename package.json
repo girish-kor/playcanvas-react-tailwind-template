@@ -1,0 +1,64 @@
+{
+  "name": "playcanvas-react-tailwind-template",
+  "public": true,
+  "version": "0.0.0",
+  "description": "A starter template for building web applications with PlayCanvas, @playcanvas/react, React, Tailwind CSS v4, and Vite.",
+  "type": "module",
+  "keywords": [
+    "playcanvas",
+    "react",
+    "tailwindcss",
+    "vite",
+    "webgl",
+    "game-template"
+  ],
+  "homepage": "https://github.com/girish-kor/playcanvas-react-tailwind-template#readme",
+  "bugs": {
+    "url": "https://github.com/girish-kor/playcanvas-react-tailwind-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girish-kor/playcanvas-react-tailwind-template.git"
+  },
+  "license": "MIT",
+  "author": "girish-kor",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "npm run lint && npm run format:check && npm run test"
+  },
+  "dependencies": {
+    "@playcanvas/react": "^0.5.0",
+    "playcanvas": "^2.8.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sync-ammo": "^0.1.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^6.1.0",
+    "eslint": "^10.9.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.5",
+    "globals": "^17.11.0",
+    "prettier": "^3.9.6",
+    "rollup-plugin-visualizer": "^7.1.1",
+    "tailwindcss": "^4.0.0",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11"
+  },
+  "allowScripts": {
+    "canvas@3.1.0": true
+  }
+}
